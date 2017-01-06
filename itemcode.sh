@@ -11,7 +11,7 @@ read -p "Item Number: " XNUM
 
 clear
 
-qrencode --size=3 -o /home/$USERNAME/Desktop/XNUM.png "https://github.com/alectramell/printlib/raw/master/$XNUM.txt"
+qrencode --size=3 -o /home/$USERNAME/Desktop/$XNUM.png "https://github.com/alectramell/printlib/raw/master/$XNUM.txt"
 
 clear
 
